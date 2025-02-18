@@ -1,0 +1,884 @@
+[
+    {
+        "id": 1,
+        "question": "What does 'CPU' stand for?",
+        "answers": [
+            "Central Processing Unit",
+            "Computer Processing Unit",
+            "Core Programming Unit",
+            "Central Power Unit"
+        ],
+        "correctAnswer": "Central Processing Unit",
+        "level": "Beginner",
+        "explanation": "The CPU is the central component in a computer responsible for executing instructions.",
+        "category": "Hardware"
+    },
+    {
+        "id": 2,
+        "question": "Which programming language is primarily used for web development?",
+        "answers": [
+            "Python",
+            "Java",
+            "JavaScript",
+            "C++"
+        ],
+        "correctAnswer": "JavaScript",
+        "level": "Beginner",
+        "explanation": "JavaScript is the most widely used programming language for web development.",
+        "category": "Hardware"
+    },
+    {
+        "id": 3,
+        "question": "What does 'HTML' stand for?",
+        "answers": [
+            "HyperText Markup Language",
+            "Hyperlink Text Markup Language",
+            "Hyperlink Transfer Markup Language",
+            "HyperText Transfer Language"
+        ],
+        "correctAnswer": "HyperText Markup Language",
+        "level": "Beginner",
+        "explanation": "HTML is the standard language for creating web pages and web applications.",
+        "category": "Web Development"
+    },
+    {
+        "id": 4,
+        "question": "Which of these is a type of software?",
+        "answers": [
+            "Hardware",
+            "Operating System",
+            "Monitor",
+            "Keyboard"
+        ],
+        "correctAnswer": "Operating System",
+        "level": "Beginner",
+        "explanation": "Software includes programs like operating systems, while hardware refers to physical components.",
+        "category": "Programming"
+    },
+    {
+        "id": 5,
+        "question": "What is the main purpose of RAM in a computer?",
+        "answers": [
+            "To store files permanently",
+            "To execute commands",
+            "To store data temporarily",
+            "To provide internet connectivity"
+        ],
+        "correctAnswer": "To store data temporarily",
+        "level": "Beginner",
+        "explanation": "RAM (Random Access Memory) is used for temporary data storage to speed up processes.",
+        "category": "Hardware"
+    },
+    {
+        "id": 6,
+        "question": "Which company created the Windows operating system?",
+        "answers": [
+            "Apple",
+            "Microsoft",
+            "Google",
+            "IBM"
+        ],
+        "correctAnswer": "Microsoft",
+        "level": "Beginner",
+        "explanation": "Microsoft developed the Windows operating system, first released in 1985.",
+        "category": "Software"
+    },
+    {
+        "id": 7,
+        "question": "What does the acronym 'LAN' stand for?",
+        "answers": [
+            "Large Area Network",
+            "Local Area Network",
+            "Logical Access Network",
+            "Linear Area Network"
+        ],
+        "correctAnswer": "Local Area Network",
+        "level": "Beginner",
+        "explanation": "A LAN connects computers within a limited area like an office or home.",
+        "category": "Programming"
+    },
+    {
+        "id": 8,
+        "question": "Which device is used to input data into a computer?",
+        "answers": [
+            "Printer",
+            "Monitor",
+            "Keyboard",
+            "Router"
+        ],
+        "correctAnswer": "Keyboard",
+        "level": "Beginner",
+        "explanation": "A keyboard is a primary input device used for typing data into a computer.",
+        "category": "Programming"
+    },
+    {
+        "id": 9,
+        "question": "Which of the following is not an operating system?",
+        "answers": [
+            "Windows",
+            "Linux",
+            "Android",
+            "Google"
+        ],
+        "correctAnswer": "Google",
+        "level": "Beginner",
+        "explanation": "Google is a company, not an operating system.",
+        "category": "Software"
+    },
+    {
+        "id": 10,
+        "question": "Which one is a storage device?",
+        "answers": [
+            "Mouse",
+            "USB Drive",
+            "Router",
+            "Monitor"
+        ],
+        "correctAnswer": "USB Drive",
+        "level": "Beginner",
+        "explanation": "A USB drive is a portable device used to store data.",
+        "category": "Programming"
+    },
+    {
+        "id": 11,
+        "question": "Which programming language is known as the foundation of modern programming?",
+        "answers": [
+            "Java",
+            "Python",
+            "C",
+            "Ruby"
+        ],
+        "correctAnswer": "C",
+        "level": "Beginner",
+        "explanation": "The C language is considered foundational for many modern programming languages.",
+        "category": "Hardware"
+    },
+    {
+        "id": 12,
+        "question": "Which of the following is used for cybersecurity?",
+        "answers": [
+            "Firewall",
+            "Keyboard",
+            "Monitor",
+            "Mouse"
+        ],
+        "correctAnswer": "Firewall",
+        "level": "Beginner",
+        "explanation": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic.",
+        "category": "Programming"
+    },
+    {
+        "id": 13,
+        "question": "What is the full form of 'URL'?",
+        "answers": [
+            "Uniform Resource Locator",
+            "Uniform Reference Link",
+            "Universal Resource Link",
+            "Universal Reference Locator"
+        ],
+        "correctAnswer": "Uniform Resource Locator",
+        "level": "Beginner",
+        "explanation": "A URL is the address used to access resources on the internet.",
+        "category": "General Knowledge"
+    },
+    {
+        "id": 14,
+        "question": "What is the main role of a database?",
+        "answers": [
+            "To perform calculations",
+            "To store data",
+            "To connect to the internet",
+            "To display data"
+        ],
+        "correctAnswer": "To store data",
+        "level": "Beginner",
+        "explanation": "Databases are designed to efficiently store, retrieve, and manage data.",
+        "category": "Databases"
+    },
+    {
+        "id": 15,
+        "question": "Which one of these is not a programming language?",
+        "answers": [
+            "Python",
+            "Java",
+            "HTML",
+            "C++"
+        ],
+        "correctAnswer": "HTML",
+        "level": "Beginner",
+        "explanation": "HTML is a markup language, not a programming language.",
+        "category": "Hardware"
+    },
+    {
+        "id": 16,
+        "question": "What does 'HTTP' stand for?",
+        "answers": [
+            "HyperText Transfer Protocol",
+            "Hyperlink Transfer Protocol",
+            "HyperText Transfer Pathway",
+            "Hyperlink Transfer Pathway"
+        ],
+        "correctAnswer": "HyperText Transfer Protocol",
+        "level": "Intermediate",
+        "explanation": "HTTP is a protocol used for transferring data over the web.",
+        "category": "General Knowledge"
+    },
+    {
+        "id": 17,
+        "question": "What is the function of DNS in networking?",
+        "answers": [
+            "Securing data",
+            "Resolving domain names to IP addresses",
+            "Transmitting data",
+            "Managing traffic"
+        ],
+        "correctAnswer": "Resolving domain names to IP addresses",
+        "level": "Intermediate",
+        "explanation": "The Domain Name System translates domain names into machine-readable IP addresses.",
+        "category": "Programming"
+    },
+    {
+        "id": 18,
+        "question": "Which of the following is a NoSQL database?",
+        "answers": [
+            "MySQL",
+            "Oracle",
+            "MongoDB",
+            "PostgreSQL"
+        ],
+        "correctAnswer": "MongoDB",
+        "level": "Intermediate",
+        "explanation": "MongoDB is a NoSQL database designed for handling unstructured data.",
+        "category": "Programming"
+    },
+    {
+        "id": 19,
+        "question": "What is the purpose of an API?",
+        "answers": [
+            "To process data",
+            "To secure systems",
+            "To enable communication between software",
+            "To debug software"
+        ],
+        "correctAnswer": "To enable communication between software",
+        "level": "Intermediate",
+        "explanation": "An API (Application Programming Interface) allows applications to interact with each other.",
+        "category": "Software Development"
+    },
+    {
+        "id": 20,
+        "question": "Which of these is an example of a cloud computing platform?",
+        "answers": [
+            "AWS",
+            "Linux",
+            "MySQL",
+            "Java"
+        ],
+        "correctAnswer": "AWS",
+        "level": "Intermediate",
+        "explanation": "Amazon Web Services (AWS) is a leading cloud computing platform.",
+        "category": "Programming"
+    },
+    {
+        "id": 21,
+        "question": "Which of the following is an example of version control software?",
+        "answers": [
+            "Git",
+            "Photoshop",
+            "PowerPoint",
+            "Notepad"
+        ],
+        "correctAnswer": "Git",
+        "level": "Intermediate",
+        "explanation": "Git is used to manage and track changes in code development.",
+        "category": "Programming"
+    },
+    {
+        "id": 22,
+        "question": "Which protocol is commonly used to send emails?",
+        "answers": [
+            "FTP",
+            "SMTP",
+            "HTTP",
+            "SNMP"
+        ],
+        "correctAnswer": "SMTP",
+        "level": "Intermediate",
+        "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending emails.",
+        "category": "Programming"
+    },
+    {
+        "id": 23,
+        "question": "What is a virtual machine?",
+        "answers": [
+            "A physical server",
+            "A software-based emulation of a computer",
+            "A type of database",
+            "A cloud storage solution"
+        ],
+        "correctAnswer": "A software-based emulation of a computer",
+        "level": "Intermediate",
+        "explanation": "Virtual machines allow you to run an operating system within another operating system.",
+        "category": "Programming"
+    },
+    {
+        "id": 24,
+        "question": "Which of these is a frontend framework?",
+        "answers": [
+            "Node.js",
+            "Django",
+            "React",
+            "Flask"
+        ],
+        "correctAnswer": "React",
+        "level": "Intermediate",
+        "explanation": "React is a popular frontend JavaScript library for building user interfaces.",
+        "category": "Hardware"
+    },
+    {
+        "id": 25,
+        "question": "Which programming paradigm does Python support?",
+        "answers": [
+            "Object-Oriented Programming",
+            "Functional Programming",
+            "Procedural Programming",
+            "All of the above"
+        ],
+        "correctAnswer": "All of the above",
+        "level": "Intermediate",
+        "explanation": "Python supports multiple programming paradigms including OOP, functional, and procedural.",
+        "category": "Hardware"
+    },
+    {
+        "id": 26,
+        "question": "What is the role of a load balancer?",
+        "answers": [
+            "To store backups",
+            "To route traffic between servers",
+            "To encrypt data",
+            "To provide high-speed internet"
+        ],
+        "correctAnswer": "To route traffic between servers",
+        "level": "Intermediate",
+        "explanation": "Load balancers distribute network traffic across multiple servers to ensure reliability.",
+        "category": "Programming"
+    },
+    {
+        "id": 27,
+        "question": "What is 'Big O' notation used for?",
+        "answers": [
+            "Measuring algorithm efficiency",
+            "Designing user interfaces",
+            "Encrypting data",
+            "Managing memory"
+        ],
+        "correctAnswer": "Measuring algorithm efficiency",
+        "level": "Intermediate",
+        "explanation": "Big O notation describes the performance or complexity of an algorithm.",
+        "category": "Algorithm"
+    },
+    {
+        "id": 28,
+        "question": "Which of these is a containerization platform?",
+        "answers": [
+            "Docker",
+            "Kubernetes",
+            "VMware",
+            "Hyper-V"
+        ],
+        "correctAnswer": "Docker",
+        "level": "Intermediate",
+        "explanation": "Docker is a platform for developing, shipping, and running containerized applications.",
+        "category": "Programming"
+    },
+    {
+        "id": 29,
+        "question": "What does 'SSL' stand for?",
+        "answers": [
+            "Secure Socket Layer",
+            "Simple Secure Layer",
+            "Secure System Link",
+            "Standard Secure Link"
+        ],
+        "correctAnswer": "Secure Socket Layer",
+        "level": "Intermediate",
+        "explanation": "SSL is a standard technology for securing internet communications.",
+        "category": "Security"
+    },
+    {
+        "id": 30,
+        "question": "Which of the following is a benefit of cloud computing?",
+        "answers": [
+            "Scalability",
+            "Increased energy consumption",
+            "Limited accessibility",
+            "Higher hardware costs"
+        ],
+        "correctAnswer": "Scalability",
+        "level": "Intermediate",
+        "explanation": "Cloud computing allows resources to scale dynamically based on demand.",
+        "category": "Programming"
+    },
+    {
+        "id": 31,
+        "question": "What is the primary purpose of a hash function in cryptography?",
+        "answers": [
+            "Encrypting messages",
+            "Verifying data integrity",
+            "Compressing files",
+            "Transmitting data"
+        ],
+        "correctAnswer": "Verifying data integrity",
+        "level": "Advanced",
+        "explanation": "Hash functions generate a unique fixed-size output for a given input, ensuring data integrity.",
+        "category": "Programming"
+    },
+    {
+        "id": 32,
+        "question": "What does 'CAP' in the CAP theorem stand for?",
+        "answers": [
+            "Consistency, Availability, Partition tolerance",
+            "Cache, Access, Partition",
+            "Consistency, Accessibility, Partitioning",
+            "Connection, Availability, Performance"
+        ],
+        "correctAnswer": "Consistency, Availability, Partition tolerance",
+        "level": "Advanced",
+        "explanation": "The CAP theorem states that a distributed system can only guarantee two of the three properties simultaneously.",
+        "category": "Programming"
+    },
+    {
+        "id": 33,
+        "question": "What is the primary difference between TCP and UDP?",
+        "answers": [
+            "TCP is connection-oriented, UDP is connectionless",
+            "UDP is faster than TCP",
+            "TCP is used for video streaming",
+            "UDP ensures data reliability"
+        ],
+        "correctAnswer": "TCP is connection-oriented, UDP is connectionless",
+        "level": "Advanced",
+        "explanation": "TCP establishes a connection before data transfer, whereas UDP sends data without establishing a connection.",
+        "category": "Programming"
+    },
+    {
+        "id": 34,
+        "question": "Which of the following algorithms is used for asymmetric encryption?",
+        "answers": [
+            "RSA",
+            "AES",
+            "SHA-256",
+            "MD5"
+        ],
+        "correctAnswer": "RSA",
+        "level": "Advanced",
+        "explanation": "RSA is a widely used algorithm for asymmetric encryption and digital signatures.",
+        "category": "Programming"
+    },
+    {
+        "id": 35,
+        "question": "In machine learning, what does 'overfitting' mean?",
+        "answers": [
+            "The model performs well on training data but poorly on new data",
+            "The model performs poorly on training data",
+            "The model has a large dataset",
+            "The model uses too few features"
+        ],
+        "correctAnswer": "The model performs well on training data but poorly on new data",
+        "level": "Advanced",
+        "explanation": "Overfitting occurs when a model learns patterns specific to the training data but fails to generalize.",
+        "category": "Programming"
+    },
+    {
+        "id": 36,
+        "question": "What is the function of a kernel in an operating system?",
+        "answers": [
+            "Managing hardware resources",
+            "Running user applications",
+            "Providing network security",
+            "Compressing data"
+        ],
+        "correctAnswer": "Managing hardware resources",
+        "level": "Advanced",
+        "explanation": "The kernel is the core of an OS, handling resource management and system calls.",
+        "category": "Software"
+    },
+    {
+        "id": 37,
+        "question": "Which of these is a commonly used database normalization form?",
+        "answers": [
+            "First Normal Form (1NF)",
+            "Abstract Normal Form",
+            "Operational Normal Form",
+            "Distributed Normal Form"
+        ],
+        "correctAnswer": "First Normal Form (1NF)",
+        "level": "Advanced",
+        "explanation": "Database normalization reduces redundancy, starting with 1NF, ensuring that data is atomic.",
+        "category": "Programming"
+    },
+    {
+        "id": 38,
+        "question": "What is the purpose of garbage collection in programming?",
+        "answers": [
+            "To free unused memory",
+            "To optimize CPU usage",
+            "To handle exceptions",
+            "To debug code"
+        ],
+        "correctAnswer": "To free unused memory",
+        "level": "Advanced",
+        "explanation": "Garbage collection automatically frees memory occupied by objects no longer in use.",
+        "category": "Hardware"
+    },
+    {
+        "id": 39,
+        "question": "Which of the following is a feature of RESTful APIs?",
+        "answers": [
+            "Statelessness",
+            "Statefulness",
+            "Data Encryption",
+            "Guaranteed Delivery"
+        ],
+        "correctAnswer": "Statelessness",
+        "level": "Advanced",
+        "explanation": "RESTful APIs are stateless, meaning each request contains all information needed for processing.",
+        "category": "Programming"
+    },
+    {
+        "id": 40,
+        "question": "What is a deadlock in computer science?",
+        "answers": [
+            "A situation where processes block each other indefinitely",
+            "A temporary system freeze",
+            "A hardware failure",
+            "An algorithm failure"
+        ],
+        "correctAnswer": "A situation where processes block each other indefinitely",
+        "level": "Advanced",
+        "explanation": "Deadlocks occur when two or more processes wait indefinitely for resources held by each other.",
+        "category": "Programming"
+    },
+    {
+        "id": 41,
+        "question": "Which language is primarily used for data analysis?",
+        "answers": [
+            "R",
+            "C++",
+            "HTML",
+            "Swift"
+        ],
+        "correctAnswer": "R",
+        "level": "Advanced",
+        "explanation": "R is a language and environment specifically designed for statistical computing and data analysis.",
+        "category": "Programming"
+    },
+    {
+        "id": 42,
+        "question": "What is the primary advantage of microservices architecture?",
+        "answers": [
+            "Scalability",
+            "Centralized management",
+            "Reduced network usage",
+            "Monolithic design"
+        ],
+        "correctAnswer": "Scalability",
+        "level": "Advanced",
+        "explanation": "Microservices architecture allows scaling individual components independently.",
+        "category": "Programming"
+    },
+    {
+        "id": 43,
+        "question": "What is an SQL JOIN operation used for?",
+        "answers": [
+            "Combining data from two or more tables",
+            "Deleting data from a table",
+            "Updating records in a table",
+            "Indexing tables"
+        ],
+        "correctAnswer": "Combining data from two or more tables",
+        "level": "Advanced",
+        "explanation": "SQL JOINs retrieve data by combining rows from two or more related tables.",
+        "category": "General Knowledge"
+    },
+    {
+        "id": 44,
+        "question": "Which of the following is an example of a neural network activation function?",
+        "answers": [
+            "ReLU",
+            "FIFO",
+            "LIFO",
+            "HDFS"
+        ],
+        "correctAnswer": "ReLU",
+        "level": "Advanced",
+        "explanation": "ReLU (Rectified Linear Unit) is a commonly used activation function in deep learning.",
+        "category": "Programming"
+    },
+    {
+        "id": 45,
+        "question": "What is a RAID system used for?",
+        "answers": [
+            "Data redundancy and performance",
+            "Reducing power consumption",
+            "Encrypting data",
+            "Cloud hosting"
+        ],
+        "correctAnswer": "Data redundancy and performance",
+        "level": "Advanced",
+        "explanation": "RAID (Redundant Array of Independent Disks) provides data redundancy and/or performance improvements.",
+        "category": "General Knowledge"
+    },
+    {
+        "id": 46,
+        "question": "What is the purpose of the ACID properties in database transactions?",
+        "answers": [
+            "To ensure reliability and consistency",
+            "To improve query performance",
+            "To encrypt sensitive data",
+            "To optimize storage usage"
+        ],
+        "correctAnswer": "To ensure reliability and consistency",
+        "level": "Professional",
+        "explanation": "ACID (Atomicity, Consistency, Isolation, Durability) ensures reliable processing of database transactions.",
+        "category": "Programming"
+    },
+    {
+        "id": 47,
+        "question": "What is the primary function of a message broker like RabbitMQ or Kafka?",
+        "answers": [
+            "To manage message queues between services",
+            "To encrypt communication",
+            "To monitor network traffic",
+            "To store logs"
+        ],
+        "correctAnswer": "To manage message queues between services",
+        "level": "Professional",
+        "explanation": "Message brokers help manage communication between distributed systems by queuing and routing messages.",
+        "category": "Programming"
+    },
+    {
+        "id": 48,
+        "question": "What is the key feature of a blockchain?",
+        "answers": [
+            "Decentralization",
+            "High transaction speed",
+            "Centralized control",
+            "Efficient storage"
+        ],
+        "correctAnswer": "Decentralization",
+        "level": "Professional",
+        "explanation": "Blockchains are decentralized systems where no single entity has full control.",
+        "category": "Programming"
+    },
+    {
+        "id": 49,
+        "question": "What is the difference between symmetric and asymmetric encryption?",
+        "answers": [
+            "Symmetric uses one key, asymmetric uses two keys",
+            "Symmetric is faster, asymmetric is slower",
+            "Symmetric is less secure",
+            "Asymmetric uses shared secrets"
+        ],
+        "correctAnswer": "Symmetric uses one key, asymmetric uses two keys",
+        "level": "Professional",
+        "explanation": "Symmetric encryption uses one shared key, while asymmetric encryption uses a pair of public and private keys.",
+        "category": "Programming"
+    },
+    {
+        "id": 50,
+        "question": "In machine learning, what is a hyperparameter?",
+        "answers": [
+            "A parameter set before training a model",
+            "A variable optimized during training",
+            "A feature in the dataset",
+            "A metric for model evaluation"
+        ],
+        "correctAnswer": "A parameter set before training a model",
+        "level": "Professional",
+        "explanation": "Hyperparameters are configurations set prior to model training, such as learning rate or number of epochs.",
+        "category": "Hardware"
+    },
+    {
+        "id": 51,
+        "question": "Which type of database is most suitable for real-time analytics?",
+        "answers": [
+            "Columnar",
+            "Relational",
+            "Document",
+            "Graph"
+        ],
+        "correctAnswer": "Columnar",
+        "level": "Professional",
+        "explanation": "Columnar databases are optimized for read-heavy operations, making them suitable for analytics.",
+        "category": "Programming"
+    },
+    {
+        "id": 52,
+        "question": "What is the purpose of a reverse proxy?",
+        "answers": [
+            "To route client requests to backend servers",
+            "To encrypt client data",
+            "To improve local caching",
+            "To filter outgoing traffic"
+        ],
+        "correctAnswer": "To route client requests to backend servers",
+        "level": "Professional",
+        "explanation": "Reverse proxies distribute incoming traffic and add an extra layer of security to backend systems.",
+        "category": "General Knowledge"
+    },
+    {
+        "id": 53,
+        "question": "What does the term 'sharding' mean in database management?",
+        "answers": [
+            "Partitioning a database into smaller pieces",
+            "Encrypting database fields",
+            "Optimizing query performance",
+            "Compressing database storage"
+        ],
+        "correctAnswer": "Partitioning a database into smaller pieces",
+        "level": "Professional",
+        "explanation": "Sharding splits a database into smaller, more manageable parts to enhance scalability and performance.",
+        "category": "Databases"
+    },
+    {
+        "id": 54,
+        "question": "What is the Byzantine Generals Problem, and why is it important in blockchain?",
+        "answers": [
+            "A problem of achieving consensus in distributed systems",
+            "A security flaw in centralized databases",
+            "A type of cryptographic algorithm",
+            "A model for parallel computing"
+        ],
+        "correctAnswer": "A problem of achieving consensus in distributed systems",
+        "level": "Legend",
+        "explanation": "The Byzantine Generals Problem illustrates the challenges of reaching consensus in a distributed system with potentially malicious actors.",
+        "category": "Programming"
+    },
+    {
+        "id": 55,
+        "question": "What is the concept of 'eventual consistency' in distributed systems?",
+        "answers": [
+            "Data will eventually become consistent across replicas",
+            "Data is always consistent immediately",
+            "Data is stored redundantly",
+            "Data is only consistent when queried"
+        ],
+        "correctAnswer": "Data will eventually become consistent across replicas",
+        "level": "Legend",
+        "explanation": "Eventual consistency ensures that, over time, all nodes in a distributed system converge to the same data state.",
+        "category": "Programming"
+    },
+    {
+        "id": 56,
+        "question": "What is the Halting Problem in computer science?",
+        "answers": [
+            "Determining if a program will terminate or run indefinitely",
+            "Debugging infinite loops",
+            "Optimizing program runtime",
+            "Analyzing memory usage"
+        ],
+        "correctAnswer": "Determining if a program will terminate or run indefinitely",
+        "level": "Legend",
+        "explanation": "The Halting Problem, proven undecidable by Alan Turing, shows that no algorithm can universally determine if programs halt.",
+        "category": "Programming"
+    },
+    {
+        "id": 57,
+        "question": "What is homomorphic encryption?",
+        "answers": [
+            "Encryption that allows computation on ciphertexts",
+            "Encryption with a single key",
+            "A fast encryption algorithm",
+            "A reversible hash function"
+        ],
+        "correctAnswer": "Encryption that allows computation on ciphertexts",
+        "level": "Legend",
+        "explanation": "Homomorphic encryption enables computations on encrypted data without decrypting it, preserving confidentiality.",
+        "category": "Programming"
+    },
+    {
+        "id": 58,
+        "question": "What is the purpose of the Paxos algorithm in distributed systems?",
+        "answers": [
+            "To achieve consensus among distributed nodes",
+            "To encrypt communication between nodes",
+            "To manage distributed logs",
+            "To optimize distributed queries"
+        ],
+        "correctAnswer": "To achieve consensus among distributed nodes",
+        "level": "Legend",
+        "explanation": "Paxos is a consensus algorithm used to achieve agreement in distributed systems, even in the presence of failures.",
+        "category": "General Knowledge"
+    },
+    {
+        "id": 59,
+        "question": "Quel est l'objectif principal du paradigme de la programmation fonctionnelle ?",
+        "answers": [
+            "Éviter l'état mutable",
+            "Utiliser des boucles pour l'itération",
+            "Favoriser les classes",
+            "Encourager l'héritage"
+        ],
+        "correctAnswer": "Éviter l'état mutable",
+        "level": "Expert",
+        "category": "Programming",
+        "explanation": "La programmation fonctionnelle repose sur l'utilisation de fonctions pures et l'évitement de l'état mutable pour améliorer la prédictibilité du code."
+    },
+    {
+        "id": 60,
+        "question": "Quel algorithme est souvent utilisé pour la recherche de motifs dans des textes volumineux ?",
+        "answers": [
+            "Dijkstra",
+            "KMP (Knuth-Morris-Pratt)",
+            "A*",
+            "Bellman-Ford"
+        ],
+        "correctAnswer": "KMP (Knuth-Morris-Pratt)",
+        "level": "Expert",
+        "category": "Algorithm",
+        "explanation": "L'algorithme KMP permet de rechercher efficacement un motif dans un texte en évitant des comparaisons inutiles."
+    },
+    {
+        "id": 61,
+        "question": "Quel est l'objectif principal de Kubernetes dans une architecture cloud ?",
+        "answers": [
+            "Orchestration des conteneurs",
+            "Stockage des bases de données",
+            "Surveillance du réseau",
+            "Gestion des accès utilisateurs"
+        ],
+        "correctAnswer": "Orchestration des conteneurs",
+        "level": "Master",
+        "category": "Cloud",
+        "explanation": "Kubernetes est un système open-source permettant d'automatiser le déploiement, la mise à l'échelle et la gestion des conteneurs."
+    },
+    {
+        "id": 62,
+        "question": "Quelle est la principale différence entre un réseau VPN et un proxy ?",
+        "answers": [
+            "Un VPN chiffre tout le trafic, un proxy non",
+            "Un proxy est plus sécurisé qu'un VPN",
+            "Les deux servent uniquement à masquer l'adresse IP",
+            "Un VPN fonctionne uniquement sur un navigateur"
+        ],
+        "correctAnswer": "Un VPN chiffre tout le trafic, un proxy non",
+        "level": "Expert",
+        "category": "Security",
+        "explanation": "Un VPN chiffre l'intégralité du trafic réseau, tandis qu'un proxy ne masque que l'adresse IP sans chiffrer l'ensemble des communications."
+    },
+    {
+        "id": 63,
+        "question": "Quel est le principal avantage d’un modèle Transformer en IA ?",
+        "answers": [
+            "Gestion du parallélisme",
+            "Utilisation de boucles pour l'entraînement",
+            "Basé sur des réseaux de neurones convolutifs",
+            "Utilisation d’un seul neurone"
+        ],
+        "correctAnswer": "Gestion du parallélisme",
+        "level": "Master",
+        "category": "AI & Machine Learning",
+        "explanation": "Les modèles Transformer utilisent des mécanismes d'attention permettant un entraînement parallèle efficace, contrairement aux architectures séquentielles."
+    }
+]
