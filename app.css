@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Global styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e4e4e4;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Select input styles */
+select {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+body.dark-mode select {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+}
+
+/* App container */
+.app-container {
+    width: 80%;
+    height: 80%;
+    margin: 60px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+body.dark-mode .header {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 10px;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+#startBtn {
+    background-color: #FFC943;
+    border: 2px solid #F7B521;
+    color: #303031;
+    font-weight: bold;
+}
+
+#startBtn:hover, #startBtn:focus {
+    background-color: #F7B521;
+    color: #FFFFFF;
+}
+
+body.dark-mode .btn {
+    background-color: #333;
+    color: #ffffff;
+}
+
+/* App content */
+.app-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .app-content {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Progress bar */
+#progress {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 10px;
+    background-color: #E4E4E4;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+body.dark-mode .progress-bar {
+    background-color: #555;
+}
+
+.progress-fill {
+    width: 0%;
+    height: 100%;
+    background-color: #FFC943;
+    border-radius: 8px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Answer styles */
+.answer {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.answer label {
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #FFC943;
+    border-color: #F7B521;
+}
+
+.answer.correct label {
+    background-color: #4CAF50;
+    border-color: #45a049;
+    color: white;
+}
+
+.answer.incorrect label {
+    background-color: #f44336;
+    border-color: #d32f2f;
+    color: white;
+}
+
+/* Question text */
+#questionText {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.progress-text {
+    font-size: 1.1em;
+    color: #666;
+}
+
+body.dark-mode .progress-text {
+    color: #ccc;
+}
+
+/* Leaderboard */
+#leaderboard {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Feedback form */
+#feedbackForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#feedbackForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .app-container {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .header {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .brands {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .progress-bar {
+        width: 95%;
+    }
+
+    #questionText {
+        font-size: 1em;
+    }
+
+    .progress-text {
+        font-size: 0.9em;
+    }
+}

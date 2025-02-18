@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Quiz IT</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="brands">
+                <img width="40" height="auto" src="./logo.png" alt="Logo QuizIT">
+                <h2 class="logo-text">QuizIT</h2>
+            </div>
+            <div class="level-selector">
+                <label for="level">Dificulté :</label>
+                <select id="level">
+                    <option value="All">Tous</option>
+                    <option value="Beginner">Débutant</option>
+                    <option value="Intermediate">Intermédiaire</option>
+                    <option value="Advanced">Avancé</option>
+                    <option value="Professional">Pro</option>
+                    <option value="Expert">Expert</option>
+                    <option value="Master">Maître</option>
+                    <option value="Legend">Légendaire</option>
+                </select>
+            </div>
+            <button class="btn" id="themeToggle">Thème Sombre</button>
+            <button class="btn" id="startBtn">Commencer</button>
+        </header>
+        <div class="app-content">
+            <div id="progress">
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText">
+                    <span id="questionNum">0</span> / <span id="totalQuestions">0</span>
+                    <span id="timeLeft">Temps: 30</span>s
+                </div>
+            </div>
+            <div class="question-container" id="questionContainer">
+                <h2 id="questionText"></h2>
+                <div class="answers-container" id="answersContainer"></div>
+            </div>
+            <div id="leaderboard">
+                <h3>Classement</h3>
+                <div id="leaderboardContent"></div>
+            </div>
+            <form id="feedbackForm" style="display: none;">
+                <textarea id="feedback" placeholder="Votre feedback"></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </div>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
